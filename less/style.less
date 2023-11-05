@@ -1,0 +1,53 @@
+@primary-bg-color: #000;
+@primary-tx-color: #fff;
+@secondary-bg-color: #55c1ff;
+@secondary-bg-color: #102e4a;
+
+@size : {
+    phones: 380px;
+    tables: 1024px;
+    desktop: 1024px;
+    widescreen: 1200px;
+}
+
+@size-prf : {
+    phone: s;
+    tablet: m;
+    desktop: l;
+    widescreen: xl;
+}
+
+@import "helpers.less";
+@import "grid.less";
+@import "landing.less";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    .no-padding-margin();
+    background-color: @primary-bg-color;
+    color: @primary-tx-color;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+.img-1{
+    text-align: center;
+}
+
+.img-2{
+    text-align: center;
+}
+
+.letra{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer{
+    font-size: 20px;
+}

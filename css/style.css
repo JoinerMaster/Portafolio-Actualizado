@@ -1,0 +1,17 @@
+@import url(./variables.css);
+@import url(./grid.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-tx-color);
+}
+
+.img-1{
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+row{
+    display: flex;
+}
+[class*="col-1"]{
+    flex: 1;
+}
